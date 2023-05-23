@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: #f9fafc;
+    background-color: #ebf2ff;
 }
 
 .navbar {
@@ -27,10 +27,10 @@ body {
 
 }
 
-.nav__item {
+.button__primary {
     background-image: linear-gradient(to right,
             #ff512f 0%,
-            #dd2476 50%,
+            #dd2476 51%,
             #ff512f 100%);
     color: #fff;
     border: none;
@@ -39,12 +39,29 @@ body {
     font-weight: 600;
 
 }
-.nav__item:hover {
+.button__primary:hover {
  border: 2px solid #ff6767;
  cursor: pointer;
+}
+.container{
+    padding: 20px;
+}
 
+.hero__image__container
+{
+width: 100%;
 
-
+}
+.hero__text
+{
+    font-size: 32px;
+    margin: 20px 0;
+    color: #1d3557;
+    font-weight: 800;    
+}
+.hero__image
+{
+    width: 100%;
 }
 
 
@@ -60,7 +77,7 @@ body {
         width: 150px;
     }
 
-    .nav__item {
+    .button__primary {
         padding: 20px;
         font-size: 20px;
 
